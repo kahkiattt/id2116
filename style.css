@@ -1,10 +1,9 @@
-
+    head {
+      text-align:center;
+    }
+    
     body {
         background-color: lightyellow;
-      }
-
-      head {
-        text-align: center;
       }
       
       h1 {
