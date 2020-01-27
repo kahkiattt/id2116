@@ -2,6 +2,10 @@
     body {
         background-color: lightyellow;
       }
+
+      head {
+        text-align: center;
+      }
       
       h1 {
         color: lightseagreen;
@@ -10,16 +14,20 @@
       }
       
       p {
+        text-align: center;
         font-family: Helvetica;
-        font-size: 12px;
+        font-size: 14px;
       }
 
       h2 {
+        text-align: center;
         font-family: Helvetica;
-        font-size: 13px;
+        font-size: 15px;
       }
 
-      ul {font-family: Helvetica;
-        font-size: 12px;
+      ul {
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 14px;
       }
   
