@@ -1,8 +1,7 @@
     head {
-      text-align:center;
-      align-content: center;
-      align-self: baseline;
+      display: flex;
       align-items: center;
+      justify-content: center;
     }
     
     body {
