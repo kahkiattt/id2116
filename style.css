@@ -1,15 +1,25 @@
 
     body {
-        background-color: lightseagreen;
+        background-color: lightyellow;
       }
       
       h1 {
-        color: lightyellow;
+        color: lightseagreen;
         text-align: center;
+        font-family: Helvetica;
       }
       
       p {
         font-family: Helvetica;
-        font-size: 11px;
+        font-size: 12px;
+      }
+
+      h2 {
+        font-family: Helvetica;
+        font-size: 13px;
+      }
+
+      ul {font-family: Helvetica;
+        font-size: 12px;
       }
   
