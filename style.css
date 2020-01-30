@@ -11,18 +11,30 @@
 
       .bottom-left {
       position: absolute;
-      bottom: 15px;
-      left: 23px;
+      bottom: 8px;
+      left: 16px;
       }
 
       .bottom-right {
         position: absolute;
-        bottom: 15px;
-        right: 23px;
+        bottom: 8px;
+        right: 16px;
       }
 
+      .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+      }
       
-      
+
+      .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+      }
+
+
       h1 {
         color: lightseagreen;
         text-align: center;
