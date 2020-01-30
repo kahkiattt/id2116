@@ -11,14 +11,14 @@
 
       .bottom-left {
       position: absolute;
-      bottom: 8px;
-      left: 16px;
+      bottom: 15px;
+      left: 23px;
       }
 
       .bottom-right {
         position: absolute;
-        bottom: 8px;
-        right: 16px;
+        bottom: 15px;
+        right: 23px;
       }
 
       
