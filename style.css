@@ -7,20 +7,17 @@
         position: relative;
         text-align: center;
         color:lightseagreen;
+        font-family: 'Karla', sans-serif;;
+        font-size: 14px; 
       }
 
       .centered {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 70%;
+        left: 30%;
         transform: translate(-50%, -50%);
       }
 
-      div {
-        text-align: center;
-        font-family: 'Karla', sans-serif;;
-        font-size: 14px; 
-      }
       
       h1 {
         color: lightseagreen;
