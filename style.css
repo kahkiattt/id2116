@@ -3,10 +3,23 @@
         background-color: lightyellow;
       }
 
+      .container {
+        position: relative;
+        text-align: center;
+        color:lightseagreen;
+      }
+
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
       div {
         text-align: center;
         font-family: 'Karla', sans-serif;;
-        font-size: 14px;
+        font-size: 14px; 
       }
       
       h1 {
