@@ -6,7 +6,8 @@
       h1 {
         color: lightseagreen;
         text-align: center;
-        font-family: Helvetica; 
+        font-family: 'Roboto Mono', monospace; 
+        font-weight: bold;
         
       }
       
