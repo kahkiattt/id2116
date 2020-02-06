@@ -33,31 +33,31 @@ ul.breadcrumb {
      font-family: 'helvetica';
      font-size: 60px;
      }
-     
-  
-  body  {
-        background-image: url(https://i.ibb.co/y4pqpS0/Background.jpg); background-size: 100%;">
-        background-color: #cccccc;
-        }
 
- div.Rescale {
-     margin-left: 50px;
-     margin-right: 50px;
- }
-  
-  /* Three image containers(use 25% for four, and 50% for two, etc) */
-  .column {
-    float: left;
-    width: 48.3%;
-    padding: 7px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
+  body {
+      background-color: whitesmoke;
+    }
+     
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   
   
   
