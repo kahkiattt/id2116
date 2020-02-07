@@ -1,36 +1,6 @@
-ul.breadcrumb {
-    padding: 10px 16px;
-    list-style: none;
-    background-color: ;
-  }
-  
-  ul.breadcrumb li {
-    display: inline;
-    font-size: 14px;
-    font-family: 'helvetica';
-    text-align: center;
-  
-  }
-  
-  ul.breadcrumb li+li:before {
-    padding: 50px;
-    color: black;
-    content: "/\00a0";
-  }
-  
-  ul.breadcrumb li a {
-    color: #0275d8;
-    text-decoration: none;
-  }
-  
-  ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
-  }
-  
-  h2 {
+ h2 {
      text-align: center;
-     font-family: 'helvetica';
+     font-family:'Roboto Mono', monospace;;
      font-size: 30px;
      }
 
