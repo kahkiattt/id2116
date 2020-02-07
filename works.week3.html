@@ -1,0 +1,71 @@
+//list of filename to be loaded
+let image_filelist = ['images of animal tinder/kk.png','images of animal tinder/deer.png', 'images of animal tinder/goat.png','images of animal tinder/dog.png','images of animal tinder/monkey.png','images of animal tinder/shaina.png','images of animal tinder/sloth.png'];
+//a variable to store images as a list
+let imagelist = [];
+
+
+//preload() function "preload"s large objects before loading the main sketch.
+function preload() {
+
+  //loop through every filenames in the filelist.
+  for(let filename of image_filelist){
+    //load and push the image into the imagelist
+    imagelist.push( loadImage(filename) ); 
+  }
+
+  print(imagelist.length+ " images are loaded into the list!");
+  
+}
+
+//variables to store button objects
+let imdesperatesoyesButton;
+let yikesButton;
+
+function setup() {
+  createCanvas(500, 650);
+  
+  //create a button with "prev" text 
+yikesButton = createButton('yikes');
+  //set prev() function to call prev() when mousePressed 
+ yikesButton.mousePressed(yikes);
+  
+  //create a button with "pass" text   
+imdesperatesoyesButton = createButton('im desperate so yes');
+  //set pass() function to call pass() when mousePressed 
+imdesperatesoyesButton.mousePressed(imdesperatesoyes);
+  
+}
+
+function draw() {
+  // Displays the current image 
+  show();  
+}
+
+//The current image id
+let current_image = 0;
+
+//show current_image from the imagelist.
+function show(){
+ image(imagelist[current_image], 0, 0);
+}
+
+//set the current_image to next id
+function imdesperatesoyes(){
+ current_image = current_image + 1;
+ 
+ if(current_image > imagelist.length - 1){
+   current_image = 0;
+ }
+ print("im desperate so yes image is " + current_image);
+}
+
+//set the current_image to previous id
+function yikes(){
+ current_image = current_image - 1;
+ 
+ if(current_image < 0){
+   current_image = imagelist.length - 1;
+ }
+
+ print("yikes " + current_image);
+}
