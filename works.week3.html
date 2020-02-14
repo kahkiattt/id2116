@@ -1,5 +1,55 @@
+<html>
+<head>
+<style>
+  body {
+ background-color: black;
+}
+  
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+  
+  h2{ 
+   color: white;
+    font-family: helvetica;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  p{ 
+   color: white;
+   font-family: helvetica;
+   text-align: center;
+  }
+  
+  
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
 <body>
- 
-<iframe src="https://editor.p5js.org/shainanananana/embed/jFRo2Js6"></iframe>
-   
+
+<h2>p5*js TryOuTs</h2>
+ <p> animal tinder & spray bottle </p>
+
+<div class="row">
+  <div class="column">
+    <iframe src="https://editor.p5js.org/shainanananana/embed/jFRo2Js6"style="width:500px;height:500px;"></iframe>
+  </div>
+  <div class="column">
+    <iframe src="https://editor.p5js.org/shainanananana/embed/4yfiQLmz"style="width:500px;height:500px;"></iframe>
+  </div>
+</div>
+
 </body>
+</html>
