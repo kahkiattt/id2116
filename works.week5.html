@@ -1,54 +1,70 @@
-<!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <style>
-img {
-  display: block;
-  width: max-content;
-  margin-left: auto;
-  margin-right: auto;
+  body {
+ background-color: black;
+}
+  
+* {
+  box-sizing: border-box;
 }
 
-h2 {
-    text-align: center;
+.column {
+  float: left;
+  width: 50%;
+  padding: 100px;
+}
+  
+  h2{ 
+   color: white;
     font-family: helvetica;
-    font-size: 25px;
-    color: white
-   }
+    text-align: center;
+    font-size: 30px;
+  }
 
-
-body {
- background-color: black
- }
-
+  p{ 
+   color: white;
+   font-family: helvetica;
+   text-align: center;
+  }
+  
+  
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 h3 {
         text-align: center;
         font-family: 'Roboto Mono', monospace;
         font-size: 14px;
         color: white
       }
- 
 </style>
-
 </head>
 <body>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 
-<h2>FINAL TRANSITION DIAGRAM</h2>
-<p> space </p>
+<h2>PROGRESS TOWARDS SPRAY-GUN</h2>
+ <p> microbit & p5js</p>
 
-<img src="image/updated-transition-diagram.jpg" alt="Paris" style="width:50%;">
+<div class="row">
+  <div class="column">
+    <img src="image/microbit.png" alt="Snow" style="width:500px;height:500px;"></iframe>
+  </div>
+  <div class="column">
+    <iframe src="https://editor.p5js.org/shainanananana/embed/YW7V56x8"style="width:500px;height:500px;"></iframe>
+  </div>
+</div>
 
 <h3>
-After deciding that similarities are shared between the gun and the spray bottle, we decided to go into the interactions made. To mimic a gun, our idea was that when the spray handle was pressed a gun sound will be produced. One short press will create a single bullet shot and a long press will produce a continuous rifle fire.
+After trying out with microbit and p5js we realised that it was still not realistic enough hence we went back to ideatiom and decidee to update our state transition diagram. An additional interaction would be when the button is pressed, there will also be vibration created. To create that feedback and jerk that a gun would produce as well.
 
-We managed to get the sound when the button is pressed with yuta’s help. But the problem we had when the button was pressed was that it was very laggy and the sound did not come out well. We tried to curb that by timing our video better.  We also made changes to out microbit file with yuta’s help. Hence we managed to get the result we wanted which was a short press resulted in a short gun shot sound and a long press resulted in a continuous rifle sound.
-
-To create something visual as well for the users instead of just sound,   we wanted an image to change as the button is pressed. Hence we managed to get a very kind friend aka Bei Ning to be our “pre-shot” and “post-shot” model. So with the image and the sounds put together, when the button is pressed, the gun sound is produced and Bei Ning’s image will change as though she is shot.
+For this to be done, we replaced the bulb on our breadboard to a vibrating sensor. It was interesting because it was our firs time soldering!
 </h3>
+
 
 </body>
 </html>
